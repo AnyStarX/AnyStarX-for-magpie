@@ -1,0 +1,23 @@
+{
+  "name": "anystarx-for-magpie",
+  "version": "0.1.0",
+  "description": "AnyStarX for magpie: use AnyStarX as a model provider and check your balance in magpie",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": ["index.mjs", "README.md", "LICENSE"],
+  "keywords": ["magpie-plugin", "anystarx", "new-api"],
+  "homepage": "https://github.com/AnyStarX/AnyStarX-for-magpie#readme",
+  "bugs": "https://github.com/AnyStarX/AnyStarX-for-magpie/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnyStarX/AnyStarX-for-magpie.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test"
+  },
+  "magpie": {
+    "icon": "https://console.anystarx.com/brand/anystarx-logomark-primary.svg"
+  }
+}
